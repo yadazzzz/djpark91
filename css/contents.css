@@ -1,0 +1,92 @@
+body {overflow: hidden; background: url("../images/bg.jpg") repeat;}
+
+/* header */
+.header-page {display: inline-block; position: absolute; top: 0; left: 50%; transform: translateX(-50%);}
+.header-page a {display: inline-block; padding: 0 20px; height: 90px; font-size: 16px; line-height: 90px; letter-spacing: 2px;}
+.header-page span {display: inline-block; margin-bottom: 5px; width: 30px; height: 1px; background-color: #fff;}
+.header-page .header-prev {}
+.header-page .header-next {}
+
+
+/* sub-menu */
+.sub-menu {position: fixed; left: 50px; top: 110px; z-index: 100;}
+.sub-menu ul {overflow: hidden;}
+.sub-menu li {float: left;}
+.sub-menu a, .sub-menu a:visited, .sub-menu a:active {}
+.sub-menu a {display: inline-block; margin-right: 20px; color: #fff; font-weight: lighter; letter-spacing: 2px;}
+.sub-menu a.active {color: #5ec7eb;}
+
+/* section */
+/* section {overflow-x: scroll; width: 3000px;}
+.section-wrap {margin: 0 auto; padding: 0 15px; max-width: 1000px; width: 100%; height: 100%; box-sizing: border-box;} */
+
+.h-slides {width: 300vw; height: 100vh; -webkit-transition: transform 0.8s ease; transition: transform 0.8s ease;}
+.h-slides .h-slide {float: left; margin: 90px 0; width: 100vw; height: 100vh;}
+.h-slides .h-slide .content {overflow: hidden; padding: 0 50px; width: 100vw; height: 100vh;}
+.h-slides .h-slide .content .text {float: left; margin-right: 5%; width: 45%;}
+.h-slides .h-slide .content .image {float: left; max-width: 580px; width: 50%; position: relative;}
+.h-slides .h-slide .content .image::after {content: ""; display: block; position: absolute; top:0; left:0; width: 100%; height: 100%; background: #161618; transform: translate(20px, 20px);}
+
+h4 {position: relative; margin: 100px 0 50px; padding-left: 30px; font-weight: lighter; letter-spacing: 7px;}
+h4::before {content: ""; position: absolute; top: 7px; left: 0; width: 20px; height: 1px; background-color: #fff;}
+
+/* .overview {} */
+.overview {}
+.overview .overview-text {font-size: 20px;}
+.overview .visit-site {display: inline-block; margin: 80px 0; padding: 10px 15px; border: 2px solid #fff; font-size: 14px; letter-spacing: 3px;}
+.overview .visit-site:hover {color: #5ec7eb; border-color: #5ec7eb; transition: all .3s;}
+.overview .visit-site img {margin-right: 15px; width: 20px; height: auto; vertical-align: -4px; }
+
+/* .skill {margin: 80px 0 160px;} */
+.skill {}
+.skill .skill-text {font-size: 20px;}
+
+/* .part {margin: 80px 0 160px;} */
+.part {}
+.part svg.progress {width: 200px; height: 200px;}
+.part svg.progress .track,
+.part svg.progress .fill {fill: rgba(0, 0, 0, 0); stroke-width: 5; transform: rotate(90deg) translate(0px, -80px);}
+.part svg.progress .track {stroke: rgb(11, 18, 24);}
+.part svg.progress .fill {stroke: rgb(220, 20, 60); stroke-dasharray: 219.99078369140625; stroke-dashoffset: -219.99078369140625; transition: stroke-dashoffset 3s;}
+.part svg.progress .value,
+.part svg.progress .text {fill: #fff; text-anchor: middle; font-size: 10px;}
+.part svg.noselect {-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: default;}
+
+
+/* Next */
+.footer-next {position: fixed; left: 0; bottom: 0; width: 100%; height: 90px; background: rgba(17, 19, 20, 0.7);}
+
+
+
+/* portfolio1 */
+.swiper-container {max-width: 580px; max-height: 420px; width: 100%; height: 100%; background-color: #fff;}
+.swiper-wrapper {width: 100%; height: 100%;}
+.swiper-slide {text-align: center; width: 100%; height: 100%;}
+.swiper-slide img {width: 100%; height: auto;}
+
+.swiper-button-prev {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");}
+.swiper-button-next {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");}
+
+.swiper-pagination {bottom: 0 !important; height: 80px; line-height: 80px; background-color: #000; opacity: 0.8;}
+.swiper-pagination-bullet {background: #fff;}
+.swiper-pagination-bullet-active {background: #fff;}
+
+.portfolio1 .part svg.progress .track {stroke: rgb(0, 4, 7);}
+.portfolio1 .part svg.progress .fill {stroke: rgb(220, 20, 60);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
